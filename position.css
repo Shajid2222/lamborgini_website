@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =================================
+        NAV BAR FIXED POSITION
+===================================*/
+.bgi{
+    height: 100%;
+    width: 100%;
+}
+#nav-bar{
+    width: 650px;
+    height: 80px;
+    background-color: grey;
+    margin: 0 auto;
+    position: fixed;
+    left: 45%;
+    top: 35px;
+    border-radius: 25px;
+}
+
+#nav-bar ul li{
+    list-style: none;
+    margin: 25px;
+    float: left;
+}
+#nav-bar ul li a{
+    padding: 0 16px 0 16px;
+    text-decoration: none;
+    font-size: 27px;
+    color: wheat;
+    font-weight: bold;
+}
+
+#nav-bar ul li a:hover{
+    text-decoration: underline red;
+    background-color: #FF6347;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* ============================
+        FIXED POSITION
+===============================*/
+.logo{
+    height: 130px;
+    width: 120px;
+    position: fixed;
+    left: 8%;
+    top: 2%;
+}
+
+.picture{
+    height: 190px;
+    width: 200px;
+    position: relative;
+    top: 5%;
+    left: 8%;
+    border-radius: 50%;
+}
+
+#position1{
+    color: white;
+    border: 3px solid pink;
+    height: 70px;
+    width: 270px;
+    padding: 20px 0 20px 0;
+    float: left;
+    position: fixed;
+    top: 15% ;
+    left: 85%;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+#position1:hover{
+    color: #FF6347;
+}
+#position2{
+    color: white;
+    border: 3px solid pink;
+    height: 110px;
+    width: 350px;
+    padding: 40px 0 0 0;
+    float: left;
+    position: fixed;
+    top: 70% ;
+    left: 80%;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+#position2:hover{
+    color: #FF6347;
+}
+#position3{
+    color: white;
+    border: 3px solid pink;
+    height: 70px;
+    width: 270px;
+    padding: 20px 0 20px 0;
+    float: left;
+    position: fixed;
+    top: 20% ;
+    left: 1%;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+#position3:hover{
+    color: #FF6347;
+}
+#position4{
+    color: white;
+    border: 3px solid pink;
+    height: 120px;
+    width: 200px;
+    padding: 20px 0 20px 0;
+    float: left;
+    position: fixed;
+    top: 47% ;
+    left: 0%;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+#position4:hover{
+    color: #FF6347;
+}
+#position5{
+    color: white;
+    border: 3px solid pink;
+    height: 100px;
+    width: 350px;
+    padding: 25px 0 0 0;
+    float: left;
+    position: fixed;
+    top: 75%;
+    left: 1%;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+#position5:hover{
+    color: #FF6347;
+}
